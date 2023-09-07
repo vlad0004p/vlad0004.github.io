@@ -1,0 +1,51 @@
+<table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+
+
+      <TABLE BORDER=1>
+        <thead>
+          <tr>
+            <th colspan="2">My personal dashboard</th>
+          </tr>
+        </thead>
+        <TR VALIGN=TOP>
+        <TH><BR>Monday<BR></TH>
+        <TH><BR>Entire Row is<BR></TH>
+        </TR>
+        <TR>
+        <TH><BR>Wednesday<BR></TH>
+        <TD>Align Middle (default)</TD>
+        </TR>
+        <TR>
+        <TH><BR>Friday<BR></TH>
+        <TD VALIGN=TOP>Align Top</TD>
+        </TR>
+        <TR VALIGN=TOP>
+          <TH><BR>Monday<BR></TH>
+          <TD>Entire Row is</TD>
+          </TR>
+          <TR VALIGN=TOP>
+            <TH><BR>Monday<BR></TH>
+            <TD>Entire Row is</TD>
+            </TR>
+            <TR VALIGN=TOP>
+              <TH><BR>Monday<BR></TH>
+              <TD>Entire Row is</TD>
+              </TR>
+        </TABLE>

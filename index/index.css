@@ -65,25 +65,34 @@ body {
 
 .home-content {
   background: rgba(255, 161, 238, 0.596);
-  max-width: 600px;
+  max-width: 500px;
   position: absolute;
   top: 35%;
-  left: 200px;
-  margin-left: 0px;
-  margin-right: 300px
+  left: 30%;
 }
 
-img {
+.image1 {
   position: absolute;
   width: 300px;
-  height: 300px;
+  height: 350px;
   float: right;
-  right: 0;
+  right: 3%;
   top: 25%;
 
 }
 
-.bullets {
+.image2 {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  float: left;
+  left: 3%;
+  top: 25%;
+
+}
+
+.home-bullets {
   position: relative;
   margin-top: 40%;
+  margin-left: 5%;
 }
