@@ -96,3 +96,61 @@ body {
   margin-top: 40%;
   margin-left: 5%;
 }
+
+.container {
+  width:100%;
+  height: 505px;
+  position:relative;
+  overflow:hidden;
+}
+
+video{
+  max-width:25%;
+  position:relative;
+  float: left;
+  top: 30px;
+  left: 130px;
+}
+
+.characteristics {
+  max-width: 200px;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  font-size: 20px;
+  
+}
+
+table {
+  background-color: rgba(255, 161, 238, 0.596);
+  position: absolute;
+  font-size: 25px;
+  top: 20%;
+  left: 13%;
+  border: #ffffff;
+}
+
+details {
+  border: #ffffff;
+  padding-bottom: 20px;
+}
+
+.faq{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 20px;
+}
+
+.blogposts {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 8% 0;
+}
+
+.post {
+  max-width: 200px;
+  margin-top: 15%;
+  border: 5px solid #ffafef;
+  padding: 10px;
+}
