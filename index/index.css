@@ -54,7 +54,7 @@ body {
 }
 
 .navbar li a:hover:not(.active) {
-  color: #0ff;
+  color: rgb(252, 86, 241);
 }
 
 .active {

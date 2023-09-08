@@ -62,3 +62,16 @@ body {
   border-radius: 30px;
   transition: 5s;
 }
+
+.blogposts {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 8% 0;
+}
+
+.post {
+  max-width: 200px;
+  margin-top: 15%;
+  border: 5px solid #ffafef;
+  padding: 10px;
+}
