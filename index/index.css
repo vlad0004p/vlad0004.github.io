@@ -25,8 +25,8 @@ body {
 }
 
 .logo {
- 
-  font-size: 25px;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
@@ -64,38 +64,81 @@ body {
   transition: 5s;
 }
 
-.home-content {
-  background: rgba(255, 161, 238, 0.596);
-  max-width: 500px;
+.heading {
   position: absolute;
-  top: 35%;
+  top: 22%;
   left: 30%;
+  font-size: 30px;
+}
+
+.quote {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  justify-content: space-between;
+}
+
+.quote1 {
+  font-size: 25px;
+}
+
+.quote2 {
+  font-size: 18px;
+  text-align: right;
+}
+
+.home-content {
+  position: absolute;
+  justify-content: space-between;
+  top: 63%;
+  left: 50%;
+  max-width: 475px;
 }
 
 .image1 {
   position: absolute;
-  width: 250px;
-  height: 350px;
-  float: right;
-  right: 3%;
-  top: 25%;
+  width: 350px;
+  height: 430px;
+  float: left;
+  top: 40%;
+  left: 12%;
+}
 
+.home-content2 {
+  position: absolute;
+  justify-content: space-between;
+  top: 140%;
+  left: 13%;
+  max-width: 475px;
+}
+
+.head-home-content2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.head2-home-content2 {
+  list-style-type: circle
 }
 
 .image2 {
   position: absolute;
-  width: 275px;
-  height: 350px;
-  float: left;
-  left: 3%;
-  top: 25%;
+  width: 375px;
+  height: 430px;
+  float: right;
+  right: 12%;
+  top: 135%;
 
 }
 
-.foot {
+footer {
   position: absolute;
-  right: 20px;
-  bottom: 15px;
+  top: 220%;
+  right: 5%;
+  margin-bottom: 5%;
+}
+
+.foot {
   width: 170px;
   display: flex;
   justify-content: space-between;
@@ -113,6 +156,17 @@ body {
   font-size: 35px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.HZ-logo img{
+  background: transparent;
+  display: flex;
+  position: absolute;
+  top: 100%;
+  padding-bottom: 40%;
+  right: 1100px;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 .container {

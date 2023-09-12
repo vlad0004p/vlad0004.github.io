@@ -170,3 +170,31 @@ footer {
   left: 0;
   top: 100%;
 }
+
+
+<div class="home-content">
+  <h1>Polly Vladimirova</h1>
+  <h2>19, ICT Student</h2>
+  <h3>Bulgarian</h3>
+  <p>Hello! This is a page about me. I love learning new things and this is exactly that. It brings me joy to see
+    my progress and share it with other people.</p>
+  <p>Starting this new journey.</p>
+</div>
+
+.home-content {
+  background: rgba(255, 161, 238, 0.596);
+  max-width: 500px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.HZ-logo{
+  position: absolute;
+  top: 220%;
+  left: 5%;
+  max-width: 10px;
+  max-height: 10px;
+  background: transparent;
+}
+
