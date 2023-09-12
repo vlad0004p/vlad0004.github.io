@@ -49,3 +49,124 @@
               <TD>Entire Row is</TD>
               </TR>
         </TABLE>
+
+
+
+        
+ 
+
+.check-box input {
+
+  position: absolute;
+
+  opacity: 0;
+
+  cursor: pointer;
+
+  height: 0;
+
+  width: 0;
+
+}
+
+ 
+
+.checkmark {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  height: 20px;
+
+  width: 20px;
+
+  background-color: var(--white);
+
+}
+
+ 
+
+.check-box:hover input~.checkmark {
+
+  background-color: #ccc;
+
+}
+
+ 
+
+.check-box input:checked~.checkmark {
+
+  background-color: var(--light_blue);
+
+}
+
+ 
+
+.checkmark:after {
+
+  content: "";
+
+  position: absolute;
+
+  display: none;
+
+}
+
+ 
+
+.check-box input:checked~.checkmark:after {
+
+  display: block;
+
+}
+
+ 
+
+.check-box .checkmark:after {
+
+  left: 7px;
+
+  top: 2px;
+
+  width: 5px;
+
+  height: 10px;
+
+  border: solid var(--white);
+
+  border-width: 0 3px 3px 0;
+
+  transform: rotate(45deg);
+
+}
+
+<div class="home-bullets">
+  <h3>Here are some facts about me:
+    <ul>
+      <li>Problem solver</li>
+      <li>thing</li>
+      <li>Acrobatic Gymnast</li>
+    </ul>
+    </h2>
+</div>
+
+.home-bullets {
+  position: relative;
+  margin-top: 40%;
+  margin-left: 5%;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  top: 100%;
+  left: 0%;
+}
+.footer-pin{
+  position: relative;
+  left: 0;
+  top: 100%;
+}
