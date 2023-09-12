@@ -64,6 +64,37 @@ body {
   transition: 5s;
 }
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0%;
+  right: 0%;
+  overflow-x: hidden;
+  padding-top: 60px;
+  background-color: rgba(255, 161, 238);
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+ 
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: var(--white);
+  display: block;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  font-size: 36px;
+}
+
 .heading {
   position: absolute;
   top: 22%;
