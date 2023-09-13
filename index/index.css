@@ -197,6 +197,19 @@ footer {
   text-decoration: none;
 }
 
+button {
+  position: absolute;
+  top: 0%;
+  right: 505px;
+  text-decoration: none;
+  background-color:#b85b9f;
+  color: #ffffff;
+  width: 100px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid #ffffff;
+}
+
 .HZ-logo img {
   background: transparent;
   display: flex;
