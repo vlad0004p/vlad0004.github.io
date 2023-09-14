@@ -252,3 +252,15 @@ video {
   position: absolute;
   top:300%
 }
+
+
+margin-top: 2%;
+margin-bottom: 5%;
+margin-left: 7%;
+
+.exam {
+  width: 30%;
+}
+
+
+<p>GIS (geographical map)</p>
