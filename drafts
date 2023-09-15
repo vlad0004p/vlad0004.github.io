@@ -1,145 +1,145 @@
 <table>
-        <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-      </table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
 
 
 
-      <TABLE BORDER=1>
-        <thead>
-          <tr>
-            <th colspan="2">My personal dashboard</th>
-          </tr>
-        </thead>
-        <TR VALIGN=TOP>
-        <TH><BR>Monday<BR></TH>
-        <TH><BR>Entire Row is<BR></TH>
-        </TR>
-        <TR>
-        <TH><BR>Wednesday<BR></TH>
-        <TD>Align Middle (default)</TD>
-        </TR>
-        <TR>
-        <TH><BR>Friday<BR></TH>
-        <TD VALIGN=TOP>Align Top</TD>
-        </TR>
-        <TR VALIGN=TOP>
-          <TH><BR>Monday<BR></TH>
-          <TD>Entire Row is</TD>
-          </TR>
-          <TR VALIGN=TOP>
-            <TH><BR>Monday<BR></TH>
-            <TD>Entire Row is</TD>
-            </TR>
-            <TR VALIGN=TOP>
-              <TH><BR>Monday<BR></TH>
-              <TD>Entire Row is</TD>
-              </TR>
-        </TABLE>
+<TABLE BORDER=1>
+  <thead>
+    <tr>
+      <th colspan="2">My personal dashboard</th>
+    </tr>
+  </thead>
+  <TR VALIGN=TOP>
+    <TH><BR>Monday<BR></TH>
+    <TH><BR>Entire Row is<BR></TH>
+  </TR>
+  <TR>
+    <TH><BR>Wednesday<BR></TH>
+    <TD>Align Middle (default)</TD>
+  </TR>
+  <TR>
+    <TH><BR>Friday<BR></TH>
+    <TD VALIGN=TOP>Align Top</TD>
+  </TR>
+  <TR VALIGN=TOP>
+    <TH><BR>Monday<BR></TH>
+    <TD>Entire Row is</TD>
+  </TR>
+  <TR VALIGN=TOP>
+    <TH><BR>Monday<BR></TH>
+    <TD>Entire Row is</TD>
+  </TR>
+  <TR VALIGN=TOP>
+    <TH><BR>Monday<BR></TH>
+    <TD>Entire Row is</TD>
+  </TR>
+</TABLE>
 
 
 
-        
- 
+
+
 
 .check-box input {
 
-  position: absolute;
+position: absolute;
 
-  opacity: 0;
+opacity: 0;
 
-  cursor: pointer;
+cursor: pointer;
 
-  height: 0;
+height: 0;
 
-  width: 0;
+width: 0;
 
 }
 
- 
+
 
 .checkmark {
 
-  position: absolute;
+position: absolute;
 
-  top: 0;
+top: 0;
 
-  left: 0;
+left: 0;
 
-  height: 20px;
+height: 20px;
 
-  width: 20px;
+width: 20px;
 
-  background-color: var(--white);
+background-color: var(--white);
 
 }
 
- 
+
 
 .check-box:hover input~.checkmark {
 
-  background-color: #ccc;
+background-color: #ccc;
 
 }
 
- 
+
 
 .check-box input:checked~.checkmark {
 
-  background-color: var(--light_blue);
+background-color: var(--light_blue);
 
 }
 
- 
+
 
 .checkmark:after {
 
-  content: "";
+content: "";
 
-  position: absolute;
+position: absolute;
 
-  display: none;
+display: none;
 
 }
 
- 
+
 
 .check-box input:checked~.checkmark:after {
 
-  display: block;
+display: block;
 
 }
 
- 
+
 
 .check-box .checkmark:after {
 
-  left: 7px;
+left: 7px;
 
-  top: 2px;
+top: 2px;
 
-  width: 5px;
+width: 5px;
 
-  height: 10px;
+height: 10px;
 
-  border: solid var(--white);
+border: solid var(--white);
 
-  border-width: 0 3px 3px 0;
+border-width: 0 3px 3px 0;
 
-  transform: rotate(45deg);
+transform: rotate(45deg);
 
 }
 
@@ -154,21 +154,21 @@
 </div>
 
 .home-bullets {
-  position: relative;
-  margin-top: 40%;
-  margin-left: 5%;
+position: relative;
+margin-top: 40%;
+margin-left: 5%;
 }
 
 footer {
-  display: block;
-  text-align: center;
-  top: 100%;
-  left: 0%;
+display: block;
+text-align: center;
+top: 100%;
+left: 0%;
 }
 .footer-pin{
-  position: relative;
-  left: 0;
-  top: 100%;
+position: relative;
+left: 0;
+top: 100%;
 }
 
 
@@ -182,20 +182,20 @@ footer {
 </div>
 
 .home-content {
-  background: rgba(255, 161, 238, 0.596);
-  max-width: 500px;
-  position: absolute;
-  top: 35%;
-  left: 30%;
+background: rgba(255, 161, 238, 0.596);
+max-width: 500px;
+position: absolute;
+top: 35%;
+left: 30%;
 }
 
 .HZ-logo{
-  position: absolute;
-  top: 220%;
-  left: 5%;
-  max-width: 10px;
-  max-height: 10px;
-  background: transparent;
+position: absolute;
+top: 220%;
+left: 5%;
+max-width: 10px;
+max-height: 10px;
+background: transparent;
 }
 
 <hr> - underlines
@@ -207,11 +207,11 @@ footer {
 </div>
 
 video {
-  max-width: 25%;
-  position: relative;
-  float: left;
-  top: 30px;
-  left: 130px;
+max-width: 25%;
+position: relative;
+float: left;
+top: 30px;
+left: 130px;
 }
 
 <div class="characteristics">
@@ -227,18 +227,18 @@ video {
 </div>
 
 .characteristics {
-  max-width: 200px;
-  position: relative;
-  left: 60%;
-  font-size: 20px;
+max-width: 200px;
+position: relative;
+left: 60%;
+font-size: 20px;
 
 }
 
 .container {
-  width: 100%;
-  height: 505px;
-  position: relative;
-  overflow: hidden;
+width: 100%;
+height: 505px;
+position: relative;
+overflow: hidden;
 }
 
 <section class="ending-page">
@@ -248,9 +248,9 @@ video {
 </section>
 
 .ending-page {
-  color: #b85b9f;
-  position: absolute;
-  top:300%
+color: #b85b9f;
+position: absolute;
+top:300%
 }
 
 
@@ -259,8 +259,7 @@ margin-bottom: 5%;
 margin-left: 7%;
 
 .exam {
-  width: 30%;
+width: 30%;
 }
 
-
-<p>GIS (geographical map)</p>
+filter: drop-shadow(15px 15px 15px #974585);
