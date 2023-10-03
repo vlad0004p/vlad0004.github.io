@@ -1,0 +1,30 @@
+.blogposts {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    padding: 20px 8% 0;
+    margin-bottom: 7%;
+  }
+  
+  .post {
+    display: flex;
+    max-width: 200px;
+    margin-top: 5%;
+    border: 3px solid #ffafef;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    background: #ffafef;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 20px;
+    display: flex;
+    max-width: fit-content;
+    margin-top: 30px;
+    margin-left: 20%;
+  }
