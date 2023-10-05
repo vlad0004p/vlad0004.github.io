@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="css/dashboard.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <index class="html"></index>
-  <script src="aside_bar.js"></script>
-  <script src="dashboard.js"></script>
+  <script src="js/aside_bar.js"></script>
+  <script src="js/dashboard.js"></script>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
   <div class="table">
     <table style="border: 1px solid;">
       <tr>
-        <th colspan="7">My personal dashboard</th>
+        <th colspan="6">My personal dashboard</th>
       </tr>
       <tr>
         <th>Quartile</th>
@@ -63,7 +63,6 @@
         <th>Credit</th>
         <th class="exam">Exam</th>
         <th>Grade</th>
-        <th>Done</th>
       </tr>
       <tr>
         <th rowspan="3">Block 1</th>
@@ -71,39 +70,21 @@
         <td>CU75001</td>
         <td>2.5 EC</td>
         <td>Assessment website</td>
-        <td id="grade"> <button class="grade" onclick="getGrade()"> - </button> </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
-      </tr>
+        <td id="grade" class="grade" > <button onclick="getGrade()"></button> </td>
+        </tr>
       <tr>
         <td>Computer Science Basics (CSB)</td>
         <td>CU75002</td>
         <td>5 EC</td>
         <td>Written exam</td>
-        <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
+        <td id="exam" class="grade"> <button onclick="getExam()"></button> </td>
       </tr>
       <tr>
         <td>Programming Basics (PB)</td>
         <td>CU75003</td>
         <td>5 EC</td>
         <td>Case study exam</td>
-        <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
+        <td id="grade2" class="grade"> <button onclick="getgrade()"></button> </td>
       </tr>
       <tr>
         <th rowspan="2">Block 2</th>
@@ -112,22 +93,10 @@
         <td rowspan="2">10 EC</td>
         <td>Group assignment</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <td>Case study exam</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <th rowspan="4">Block 3</th>
@@ -136,42 +105,18 @@
         <td rowspan="4">10 EC</td>
         <td>On-site case study exam</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <td>Database exam </td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <td>Group presentation on project result</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <td>Group portfolio with individual elements on requirements</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <th rowspan="3">Block 4</th>
@@ -180,32 +125,14 @@
         <td rowspan="3">10 EC</td>
         <td>Final delivery</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <td>Report of acceptance tests and optional assessments</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <td>IT Development portfolio</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <th>Block 3 & 4</th>
@@ -214,12 +141,6 @@
         <td>2.5 EC</td>
         <td>Video</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <th rowspan="2">Year 1</th>
@@ -228,12 +149,6 @@
         <td>12.5 EC</td>
         <td>Criterium focused interview</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
       <tr>
         <td>IT personality</td>
@@ -241,12 +156,6 @@
         <td>2.5 EC</td>
         <td>Portfolio</td>
         <td> - </td>
-        <td>
-          <label class="check-box">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-        </td>
       </tr>
     </table>
 
