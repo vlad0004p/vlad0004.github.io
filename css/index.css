@@ -31,7 +31,7 @@
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .quote1 {
@@ -56,7 +56,7 @@
     flex-direction: row;
     margin-top: 4%;
     margin-left: 12%;
-    margin-bottom: 5%; 
+    margin-bottom: 5%;
 }
 
 .home-content2 {
