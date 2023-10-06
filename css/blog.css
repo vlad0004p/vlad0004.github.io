@@ -1,8 +1,14 @@
+.blog-header {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 35%;
+  font-size: 50px;
+}
+
 .blogposts {
   display: flex;
   justify-content: space-between;
   padding: 20px 8% 0;
-  margin-top: 10%;
   margin-bottom: 7%;
 }
 

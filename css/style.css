@@ -12,7 +12,6 @@ body {
   color: #ffffff;
 }
 
-/*navigation menu*/
 .header {
   display: flex;
   top: 0;
@@ -64,7 +63,6 @@ body {
   transition: 5s;
 }
 
-/*side menu*/
 .sidenav {
   height: 100%;
   width: 0;
@@ -101,7 +99,6 @@ nav {
   font-size: 40px;
 }
 
-/*footer menu*/
 footer {
   display: flex;
   flex-direction: row;
